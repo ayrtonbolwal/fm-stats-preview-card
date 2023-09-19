@@ -1,0 +1,30 @@
+:root {
+    --mainBackground: hsl(233, 47%, 7%);
+    --cardBackground: hsl(244, 38%, 16%);
+    --accend: hsl(244, 38%, 16%);
+    --mainHeading: hsl(244, 38%, 16%);
+    --stats: hsl(244, 38%, 16%);
+    --mainParagraph: hsla(0, 0%, 100%, 0.75);
+    --statHeadings: hsla(0, 0%, 100%, 0.75);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.target__right-mobile{
+    display: none;
+}
