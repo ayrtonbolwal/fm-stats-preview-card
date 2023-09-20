@@ -74,8 +74,6 @@ body {
   align-items: flex-end;
   gap: 3rem;
 }
-.target__left-stats__item {
-}
 .target__left-stats__item-score {
   font-weight: 700;
   color: var(--stats);
